@@ -1,7 +1,7 @@
 # 📌 Kranke Webseite
 
 ## 🚀 Beschreibung
-![Website Vorschau](vorschau.png)
+![Website Vorschau](images/vorschau.png)
 Diese Webseite zeigt verschiedene interaktive Funktionen an, darunter:
 
 📅 Tage zusammen – Zeigt an, wie lange ich mit meiner Freundin zusammen bin
