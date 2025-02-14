@@ -9,12 +9,26 @@
 </head>
 <body>
 <div class="container">
-    <h1>Altons Coole Webseite</h1>
+    <h1>For my Wife</h1>
     <p class="clock" id="clock"></p>
     <button class="btn" onclick="toggleMenu()">Menü öffnen</button>
 </div>
 <div id="menu" class="menu">
     <p class="special">🎉 Ihr seid seit <span id="daysTogether"></span> Tagen zusammen! 🎉</p>
+    <h2>Das entspricht:</h2>
+    <p class="special">🎉 <span id="yearsTogether"></span> Jahre ! 🎉</p>
+    <p class="special">🎉 <span id="monthsTogether"></span> Monate! 🎉</p>
+    <p class="special">🎉 <span id="weeksTogether"></span> Wochen ! 🎉</p>
+    <div class="love-container">
+        <h2>Liebst du mich?️</h2>
+        <button class="btn" id="yesButton">Ja 😍</button>
+        <button class="btn" id="noButton">Nein 😅</button>
+    </div>
+
+    <div id="loveSurprise" class="hidden">
+        🎉🥰 Ich wusste es! Wir sind das süßeste Paar ever! 💖🎉
+    </div>
+
     <p>💡 Zufälliger Fakt: <span id="randomFact">Lade...</span></p>
     <p>📍 Dein Standort: <span id="location">Lade...</span></p>
     <button class="btn" onclick="fetchIPLocation()">Standort abrufen</button>
