@@ -6,7 +6,7 @@ Diese Webseite zeigt verschiedene interaktive Funktionen an, darunter:
 
 📅 Tage zusammen – Zeigt an, wie lange ich mit meiner Freundin zusammen bin
 
-⏰ Laufende Uhrzeit – Aktualisiert sich jede Sekunde
+⏰ Laufende Uhrzeit – Aktualisiert sich jede Sekunde (Im Main Screen zu sehen)
 
 💡 Zufällige Fakten API – Holt sich zufällige Fakten aus einer externen API
 
@@ -16,7 +16,7 @@ Diese Webseite zeigt verschiedene interaktive Funktionen an, darunter:
 
 Clone das Repository
 
-git clone https://github.com/DEIN-GITHUB-NAME/DEIN-REPO.git
+git clone https://github.com/Altonbekolli/forMyWife.git
 
 Wechsle ins Projektverzeichnis
 
