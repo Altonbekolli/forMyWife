@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altons Webseite</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Altons Coole Webseite</h1>
+    <p class="clock" id="clock"></p>
+    <button class="btn" onclick="toggleMenu()">Menü öffnen</button>
+</div>
+<div id="menu" class="menu">
+    <p class="special">🎉 Ihr seid seit <span id="daysTogether"></span> Tagen zusammen! 🎉</p>
+    <p>💡 Zufälliger Fakt: <span id="randomFact">Lade...</span></p>
+    <p>📍 Dein Standort: <span id="location">Lade...</span></p>
+    <button class="btn" onclick="fetchIPLocation()">Standort abrufen</button>
+    <button class="btn" onclick="toggleMenu()">Schließen</button>
+</div>
+</body>
+</html>
