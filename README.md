@@ -1,4 +1,4 @@
-# 📌 Kranke Webseite
+# 📌 Fun Website
 
 ## 🚀 Beschreibung
 ![Website Vorschau](images/vorschau.png)
