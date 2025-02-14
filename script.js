@@ -15,10 +15,27 @@ function toggleMenu() {
 function calculateDaysTogether() {
     let startDate = new Date("2024-02-16");
     let today = new Date();
-    let diffTime = Math.abs(today - startDate);
-    let diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    document.getElementById('daysTogether').textContent = diffDays;
+
+    let years = today.getFullYear() - startDate.getFullYear();
+    let months = today.getMonth() - startDate.getMonth();
+    let days = today.getDate() - startDate.getDate();
+
+    // Falls der Monat oder der Tag negativ ist, muss ein Jahr/Monat abgezogen werden
+    if (months < 0 || (months === 0 && days < 0)) {
+        years--;
+        months += 12;
+    }
+    if (days < 0) {
+        let lastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
+        days += lastMonth.getDate();
+        months--;
+    }
+
+    let totalDays = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
+
+    document.getElementById('daysTogether').textContent = totalDays;
 }
+
 
 // Uhrzeit aktualisieren
 function updateClock() {
