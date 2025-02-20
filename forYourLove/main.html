@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How long am I in Love?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/forYourLove/images/favicon.jpg">
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="container">
+    <h1>For your Love</h1>
+    <p class="clock" id="clock"></p>
+    <label for="startDate" id="start">Beziehungsstart:</label>
+    <input type="date" id="startDate">
+    <p id="error-message" class="error-message"></p>
+    <button class="btn" onclick="calculateRelationship()">Berechnen</button>
+    <button class="btn" onclick="toggleMenu()">Menü öffnen</button>
+</div>
+<div id="menu" class="menu">
+    <p class="special">🎉 Ihr seid seit <span id="daysTogether"></span> Tagen zusammen! 🎉</p>
+    <h2>Das entspricht:</h2>
+    <p class="special"> <span id="yearsTogether"></span> Jahre ! </p>
+    <p class="special"> <span id="monthsTogether"></span> Monate! </p>
+    <p class="special"> <span id="weeksTogether"></span> Wochen ! </p>
+    <button class="btn" onclick="toggleMenu()">Schließen</button>
+</div>
+</body>
+</html>

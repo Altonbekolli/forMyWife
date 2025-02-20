@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: no-repeat url("/forYourLove/images/background.png");
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    outline: none;
+}
+
+input[type="date"]::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+.error-message {
+    color: #FFC107;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1, .clock, #start {
+    color:#c6fc03;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+.clock {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+#start{
+    font-size:24px;
+
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.8rem;
+    background: linear-gradient(45deg, #222, #555);
+    color: white;
+    border: 3px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #555, #222);
+}
+.menu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    display: none;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.special {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.special:nth-child(1) { color: #FFD700; }
+.special:nth-child(3) { color: #03fc7b; }
+.special:nth-child(4) { color: #03fc7b; }
+.special:nth-child(5) { color: #03fc7b; }
+
+.menu .btn {
+    background: linear-gradient(45deg, #222, #444);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+.menu .btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #444, #222);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
