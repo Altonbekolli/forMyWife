@@ -1,9 +1,9 @@
 # 📌 Fun Website
 
 ## 🚀 Beschreibung
-![Website Vorschau](images/vorschauEins.png)
+![Website Vorschau](forYourLove/images/vorschauEins.png)
 
-![Website Vorschau](images/vorschauZwei.png)
+![Website Vorschau](forYourLove/images/vorschauZwei.png)
 Diese Webseite zeigt verschiedene interaktive Funktionen an, darunter:
 
 📅 Tage,Wochen,Monate und Jahre zusammen – Zeigt an, wie lange jemand mit sein Patner/in zusammen ist.
