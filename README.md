@@ -1,36 +1,26 @@
 # 📌 Fun Website
 
 ## 🚀 Beschreibung
-![Website Vorschau](images/vorschau.png)
+![Website Vorschau](images/vorschauEins.png)
+
+![Website Vorschau](images/vorschauZwei.png)
 Diese Webseite zeigt verschiedene interaktive Funktionen an, darunter:
 
-📅 Tage zusammen – Zeigt an, wie lange ich mit meiner Freundin zusammen bin
+📅 Tage,Wochen,Monate und Jahre zusammen – Zeigt an, wie lange jemand mit sein Patner/in zusammen ist.
 
 ⏰ Laufende Uhrzeit – Aktualisiert sich jede Sekunde (Im Main Screen zu sehen)
-
-💡 Zufällige Fakten API – Holt sich zufällige Fakten aus einer externen API
-
-📍 Standortbestimmung – Erkennt deinen Standort über eine IP-basierte API
 
 ## 🔧 Installation & Nutzung
 
 Clone das Repository
 
-git clone https://github.com/Altonbekolli/forMyWife.git
+git clone https://github.com/Altonbekolli/forYourLove.git
 
 Wechsle ins Projektverzeichnis
 
 cd DEIN-REPO
 
 Öffne die index.html in einem Browser
-
-## 🌍 APIs
-
-Diese Webseite nutzt folgende APIs:
-
-Zufällige Fakten: uselessfacts.jsph.pl
-
-Standortbestimmung: ipapi.co
 
 ## 🤝 Mitwirken
 
