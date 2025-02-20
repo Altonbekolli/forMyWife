@@ -18,7 +18,7 @@ git clone https://github.com/Altonbekolli/forYourLove.git
 
 Wechsle ins Projektverzeichnis
 
-cd DEIN-REPO
+cd forYourLove
 
 Öffne die index.html in einem Browser
 
