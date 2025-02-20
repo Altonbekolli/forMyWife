@@ -20,7 +20,7 @@ Wechsle ins Projektverzeichnis
 
 cd forYourLove
 
-Öffne die index.html in einem Browser
+Öffne die main.html in einem Browser
 
 ## 🤝 Mitwirken
 
